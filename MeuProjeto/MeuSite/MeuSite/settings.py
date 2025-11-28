@@ -27,6 +27,15 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://localhost:8000',
+    'https://0.0.0.0:8000',
+    'http://localhost:8000',
+    'http://0.0.0.0:8000',
+    ]
+
+
+CORS_ORIGIN_ALLOW_ALL =True
 
 # Application definition
 
